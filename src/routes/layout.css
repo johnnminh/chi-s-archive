@@ -1,3 +1,31 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@font-face {
+	font-family: 'Jost';
+	src: url('/fonts/Jost-400-Book.ttf') format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Jost';
+	src: url('/fonts/Jost-500-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Jost';
+	src: url('/fonts/Jost-600-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Jost';
+	src: url('/fonts/Jost-700-Bold.ttf') format('truetype');
+	font-weight: 700;
+}
+
+@theme {
+	--font-jost: 'Jost', system-ui, sans-serif;
+}
